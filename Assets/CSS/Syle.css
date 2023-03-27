@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    padding: 20px;
+    height: 150px;
+    width: 100%;
+    background-color: orange;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header h2{
+    color: black;
+    font-size: 60px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    text-shadow: 0 0 5px black;
+}
+header span{
+    color: black;
+    text-shadow: 0 0 5px black;
+    text-transform: uppercase;
+    font-style: italic;
+}
+.user{
+    size: 10px;
+}
+.nav a{
+    display: block;
+    align-items: center;
+}
+
+main{
+    width: 100%;
+    height: 505px;
+    background-color: orange;
+    
+}
