@@ -29,13 +29,36 @@ header span {
     font-style: italic;
 }
 
-.user {
-    size: 10px;
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 70%;
+    font-size: 25px;
+}
+
+.lupa {
+    height: 44px;
+    width: 40px;
+}
+
+.userlogo {
+    background-image: url(../user.png);
+    height: 50px;
+    width: 50px;
+    background-position: center;
+    background-size: cover;
 }
 
 .nav a {
     display: block;
     align-items: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+
 }
 
 main {
@@ -90,13 +113,16 @@ footer {
     align-items: center;
     padding: 50px;
 }
-.redes{
+
+.redes {
     font-size: 50px;
 }
-footer p{
+
+footer p {
     font-size: 50px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
 .ubi {
     height: 200px;
     width: 300px;
