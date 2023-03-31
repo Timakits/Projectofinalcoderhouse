@@ -8,40 +8,21 @@
     text-decoration: none;
 }
 
-header {
-    padding: 20px;
-    height: 150px;
-    width: 100%;
-    background-color: orange;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
 
-header h2 {
-    color: black;
-    font-size: 60px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-transform: uppercase;
-    text-shadow: 0 0 5px black;
-}
 
-header span {
-    color: black;
-    text-shadow: 0 0 5px black;
-    text-transform: uppercase;
-    font-style: italic;
-}
+
 
 .navbar {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 40px;
-    width: 70%;
+    width: 90%;
     font-size: 25px;
 }
-
+.navbarinput{
+    width: 90%;
+}
 .lupa {
     height: 44px;
     width: 40px;
@@ -54,7 +35,15 @@ header span {
     background-position: center;
     background-size: cover;
 }
-
+.nav{
+    text-decoration: none;
+    list-style: none;
+    padding: 5px;
+    margin: 5px;
+}
+.nav li{
+    list-style: none;
+}
 .nav a {
     display: block;
     align-items: center;
@@ -65,19 +54,13 @@ header span {
 
 }
 
-main {
-    width: 100%;
-    height: 505px;
-    background-color: orange;
-}
 
-.banner {
-    width: 100%;
-}
 
-section {
+
+.video {
     height: 500px;
     width: 100%;
+    padding: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -88,18 +71,26 @@ section {
     background-color: orange;
 }
 
-.catalogo {
+.catalogocont {
     height: 600px;
-    width: 80%;
-    margin: 200px;
+    width: 100%;
     overflow: auto;
+
+}
+.reseña{
     display: flex;
     justify-content: center;
     align-items: center;
+    border: 2px solid orange;
+    padding: 5px;
 }
-
-.imgcatalogo {
-    height: 300px;
+.reseña p{
+    text-align: center;
+    font-size: 15px;
+    padding: 5px;
+}
+.imgreseña {
+    height: 100px;
 }
 
 .catalogos {
@@ -134,87 +125,92 @@ footer p {
 
 
 /* NOSOTROS */
-
-.nostrospng {
-    background-image: url(../nostrospng.jpg);
-    height: 500px;
+.header{
+    padding: 20px;
+    height: 20vh;
     width: 100%;
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.header h2{
+    color: black;
+    font-size: 60px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    text-shadow: 0 0 5px black;
+}
+.main{
+    background-image: url(../nostrospng.jpg);
+    background-position: center;
+    background-size: cover;
+    height:50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 150px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.main h1{
+    font-size: 150px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: orange;
+    text-shadow: 0 0 5px black;
+}
+.usgeneral p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 10px;
+}
+.mision{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: orange;
+    padding: 10px;
+}
+.mision h2{
+    text-transform: uppercase;
+    color: #333;
+}
+.card1{
+    border:  solid 5px  orange;
+}
+.imgcard1{
+    height: 50vh;
+    background-image: url(../card1.jpg);
     background-position: center;
     background-size: cover;
 }
-
-main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.imgcard2{
+    height: 50vh;
+    background-image: url(../card2.jpg);
+    background-position: center;
+    background-size: cover;
 }
-
-main h1 {
-    font-size: 100px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
-    -webkit-text-stroke: 3px #f0821c;
+.imgcard3{
+    height: 50vh;
+    background-image: url(../card3.jpg);
+    background-position: center;
+    background-size: cover;
 }
-
-.usgeneral {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 30px;
-    padding: 10px;
-    font-size: 35px;
+.maps{
+    width: 100%;
 }
-
-h2 {
+.footer{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    margin: 20px;
     font-size: 50px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background-color: orange;
-}
-
-.misioncards {
-    height: 65vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.imgcardus {
-    height: 500px;
-    width: 100%;
     padding: 20px;
 }
-
-.card1us {
-    padding: 20px;
-    border: solid 5px orange;
-}
-
-.card2us {
-    padding: 20px;
-    border: solid 5px orange;
-}
-
-.card3us {
-    padding: 20px;
-    border: solid 5px orange;
-}
-
-.mapus {
-    height: 90vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.mapa {
-    width: 100%;
-    height: 600px;
-}
-
 
 /* PRODUCTOS */
 
@@ -310,29 +306,32 @@ h2 {
     filter: grayscale(100%);
 }
 
-.sectionproductos{
+.sectionproductos {
     display: block;
     padding: 20px;
     height: auto;
 }
-.filter{
+
+.filter {
     display: block;
     height: 30px;
     width: 70px;
 }
 
-.centrado{
+.centrado {
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .tablaproductos {
     text-align: center;
     display: grid;
-    grid-template-columns: 300px 500px 200px ;
+    grid-template-columns: 300px 500px 200px;
     grid-template-rows: auto;
 }
-.productos{
+
+.productos {
     height: 100px;
     border: 2px solid black;
     display: flex;
@@ -342,7 +341,8 @@ h2 {
     font-family: Arial, Helvetica, sans-serif;
     background-color: crimson;
 }
-.descripcion{
+
+.descripcion {
     border: 2px solid black;
     height: 100px;
     display: flex;
@@ -352,7 +352,8 @@ h2 {
     font-family: Arial, Helvetica, sans-serif;
     background-color: crimson;
 }
-.precios{
+
+.precios {
     border: 2px solid black;
     height: 100px;
     display: flex;
@@ -362,7 +363,8 @@ h2 {
     font-family: Arial, Helvetica, sans-serif;
     background-color: crimson;
 }
-.tabla{
+
+.tabla {
     border: 2px solid black;
     height: auto;
     display: flex;
@@ -370,6 +372,125 @@ h2 {
     align-items: center;
 }
 
-.imgtabla{
+.imgtabla {
     height: 200px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+    body {
+        max-width: 100%;
+    }
+    .navba {
+        width: 80%;
+    }
+
+    .lupa {
+        display: inline-block;
+    }
+
+    .userlog {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .nav {
+        display: flex;
+        justify-content: center;
+    }
+
+    main h1 {
+        font-size: 75px;
+    }
+
+    footer {
+        display: block;
+        width: 100%;
+    }
+
+    footer .ubi {
+        width: 100%;
+    }
+
+    /* NOSOTROS */
+    .header{
+        display: block;
+        height: 45vh;
+    }
+    .navbar{
+        width:100%;
+        height: 50px;
+        display: flex;
+    }
+    .navbarinput{
+        width: 70%;
+        padding: 0px;
+    }
+    .user{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .header h2{
+        font-size: 50px;
+    }
+    .main h1{
+        font-size: 60px;
+    }
+    .usgeneral p{
+        font-size: 30px;
+    }
+    .footer{
+        display: block;
+        max-width: 100%;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 700px){
+    .header h2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .header{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        padding: 10px;
+        align-items:center;
+    }
+    .navbarinput{
+        width: 85%;
+    }
+    .user{
+        margin: 30px;
+    }
+    .catalogocont{
+        height: 50vh;
+    }
+    .footer{
+        display: block;
+    }
+    .main h1{
+        font-size: 90px;
+    }
+}
+
+@media only screen and (min-width: 701px) and (max-width: 1920px){
+    .header h2{
+        font-size: 40px;
+        padding: 5px;
+    }
+    .header{
+        max-width: 100%;
+        padding: 10px;
+    }
+    .navbarinput{
+        width: 75%;
+    }
+    .catalogocont{
+        height: 40vh;
+    }
 }
